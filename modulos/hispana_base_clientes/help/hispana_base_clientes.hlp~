@@ -1,0 +1,23 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="/themes/{$THEMENAME}/styles.css">
+        <link rel="stylesheet" href="/themes/{$THEMENAME}/help.css">
+    </header>
+    <body>
+        <h1>{$node_name}</h1>
+        <p align="Justify"></p>
+
+        <!-- Form to add images -->
+        <!--<div><img src="../modules/{$node_id}/images/images.png" border="0"></div> -->
+        <table class="inline">
+            <tr>
+                <th>Cabecera del archivo</th>
+            </tr>
+         
+<tr class="letra12">
+        <td align="left">ci,<br>nombre,<br>apellido,<br>provincia,<br>ciudad,<br>nacimiento,<br>edad,<br>sexo,profesion,t:telefono1,t:telefono2,t:telefonoN,d:direccion1,d:direccion2,d:direccionN,a:adicional1,a:adicional2,a:adicionalN</td>
+    </tr>
+         
+        </table>
+    </body>
+</html>

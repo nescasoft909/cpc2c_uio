@@ -1,0 +1,42 @@
+# mysql -u root -p<password> hispana
+
+CREATE TABLE `break` (
+  `id` int(11) unsigned NOT NULL auto_increment,
+  `name` varchar(250) NOT NULL,
+  `description` varchar(250) default NULL,
+  `status` varchar(1) NOT NULL default 'A',
+  `tipo` enum('B','H') default 'B',
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+CREATE TABLE `break_agente` (
+  `id` int(11) unsigned NOT NULL auto_increment,
+  `id_agente` varchar(40) NOT NULL,
+  `id_break` int(10) unsigned default NULL,
+  `datetime_init` datetime NOT NULL,
+  `datetime_end` datetime default NULL,
+  `duration` time default NULL,
+  `ext_parked` varchar(10) default NULL,
+  PRIMARY KEY  (`id`),
+  KEY `id_break` (`id_break`),
+  CONSTRAINT `audit_ibfk_2` FOREIGN KEY (`id_break`) REFERENCES `break` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+=========================================================================
+# sqlite3 /var/www/db/menu.db
+sqlite> insert into menu values ('hispana_breaks','hispana_campania','','Breaks','module',12);
+sqlite> insert into menu values ('hispana_reporte_breaks','hispana_reportes','','Reporte de breaks','module',5);
+sqlite> .exit
+
+# sqlite3 /var/www/db/acl.db
+sqlite> insert into acl_resource (name,description) values ('hispana_breaks','Hispana -> Campañas -> Breaks');
+sqlite> insert into acl_resource (name,description) values ('hispana_reporte_breaks','Hispana -> Reportes -> Reporte de breaks');
+sqlite> .exit
+==========================================================================
+Luego ir a Sistema -> Usuarios -> Permisos de Grupo
+Buscar los recursos "Campañas -> breaks" y "Reportes -> Reporte de breaks" y asignarlos al grupo Administrador/Supervisor.
+
+==========================================================================
+
+
+
+

@@ -1,0 +1,12 @@
+
+
+
+
+# sqlite /var/www/db/menu.db
+sqlite> insert into menu values ("hispana_campania_derivada","hispana_campania","","Campañas derivadas","module","13");
+sqlite> .exit
+
+# sqlite /var/www/db/acl.db
+sqlite> insert into acl_resource (name, description) values ("hispana_campania_derivada","Hispana -> Campañas derivadas");
+sqlite> .exit
+

@@ -1,0 +1,38 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="/themes/{$THEMENAME}/styles.css">
+        <link rel="stylesheet" href="/themes/{$THEMENAME}/help.css">
+    </header>
+    <body>
+        <h1>{$node_name}</h1>
+        <p align="Justify"></p>
+
+        <!-- Form to add images -->
+        <!--<div><img src="../modules/{$node_id}/images/images.png" border="0"></div> -->
+        <table class="inline">
+            <tr>
+                <th>Cabecera del archivo</th>
+            </tr>
+	    <tr class="letra12">
+		<td align="left">ci,<br>nombre,
+			    <br>apellido,
+			    <br>provincia,
+			    <br>ciudad,
+			    <br>nacimiento,
+			    <br>edad,
+			    <br>sexo,
+			    <br>profesion,
+			    <br>t:telefono 1,
+			    <br>t:telefono 2,
+			    <br>t:telefono n,
+			    <br>d:direccion 1,
+			    <br>d:direccion 2,
+			    <br>d:direccion n,
+			    <br>a:adicional 1,
+			    <br>a:adicional2,
+			    <br>a:adicional n
+		</td>
+	    </tr>
+        </table>
+    </body>
+</html>

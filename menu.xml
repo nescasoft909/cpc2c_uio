@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<module>
+		<menulist>
+			<menuitem menuid="hispana" desc="Click2Call" parent="" module="no" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			
+			<menuitem menuid="hispana_campania" desc="Campanias" parent="hispana" module="no" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_forms" desc="Forms" parent="hispana" module="no" link="" order="11">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reportes" desc="Reportes" parent="hispana" module="no" link="" order="12">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_agendados_agente" desc="Agendados Agente" parent="hispana" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_interfaz_agente" desc="Interfaz de Agente" parent="hispana" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reporte_break_agente" desc="Break de Agente" parent="hispana" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			
+			<menuitem menuid="hispana_base_clientes" desc="Base de Clientes" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_base_lista" desc="Lista de Clientes" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_crear_campania" desc="Crear campania" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_call_types" desc="Calltypes por Campania" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_listado_campanias" desc="Listado de Campanias" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_listado_call_types" desc="Listado de Calltypes" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_clientes_agendados" desc="Clientes Agendados" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_clientes_manuales" desc="Clientes Manuales" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_bases_eliminacion" desc="Eliminacion de Bases" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_clientes_campania" desc="Clientes por Campania" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_breaks" desc="Breaks" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_campania_recargable" desc="Crear Campania Recargable" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_base_recarga" desc="Base de Clientes Recargable" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_clientes_campania_r" desc="Clientes Recargable" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_telefonos_inactivos" desc="Telefonos Inactivos" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_campania_regestion" desc="Regestion de Campanias" parent="hispana_campania" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			
+			<menuitem menuid="hispana_form_designer" desc="Formularios" parent="hispana_forms" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_form_list" desc="Listado de Formularios" parent="hispana_forms" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			
+			<menuitem menuid="hispana_reporte_calltype" desc="Reporte de Calltypes" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reporte_breaks" desc="Reporte de Breaks" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reporte_ultima_gestion" desc="Reporte de Ultima Gestion" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reporte_ultima_gestion_recargable" desc="Reporte de Ultima Gestion Recargable" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reporte_campania_recargable" desc="Reporte de Campania Recargable" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_listado_reporte_offline" desc="Reportes Offline" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reporte_efectividad_recargable" desc="Reporte de Efectividad Recargable" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reporte_campania_audio" desc="Reporte General de Gestion" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reporte_campania_detalle" desc="Reporte Detallado de Gestion" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			<menuitem menuid="hispana_reporte_efectividad" desc="Reporte de Efectividad" parent="hispana_reportes" module="yes" link="" order="10">
+				<permissions>
+					<group id="1" name="administrator" desc="total access"></group>
+				</permissions>
+			</menuitem>
+			
+		</menulist>
+	</module>
+	
+	

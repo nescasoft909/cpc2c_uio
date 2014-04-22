@@ -1,0 +1,378 @@
+2013-08-12 19:57:23 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='nvelez' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-12 19:57:23 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 3
+)
+
+2013-08-12 20:19:52 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='nvelez' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-12 20:19:52 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 3
+)
+
+2013-08-12 20:19:52 : paloSantoInterfazdeAgente->obtenerClientePorUserCI error 
+2013-08-12 20:20:07 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='nvelez' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-12 20:20:07 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 3
+)
+
+2013-08-21 09:23:18 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='nvelez' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-21 09:23:18 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 2
+)
+
+2013-08-21 09:48:43 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='nvelez' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-21 09:48:43 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 2
+)
+
+2013-08-29 14:40:15 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='ifranco' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-29 14:40:15 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 6
+)
+
+2013-08-29 14:40:15 : paloSantoInterfazdeAgente->obtenerCliente (1) $result Array
+(
+)
+
+2013-08-29 14:40:15 : paloSantoInterfazdeAgente->obtenerCliente (1) $result Array
+(
+)
+
+2013-08-29 14:40:15 : paloSantoInterfazdeAgente->obtenerCliente (2) $result Array
+(
+)
+
+2013-08-29 14:40:16 : paloSantoInterfazdeAgente->obtenerCliente (3) $result Array
+(
+    [id_campania_cliente_recargable] => 46999
+    [id_campania] => 60
+    [tipo_campania] => RECARGABLE
+    [campania] => regestion5
+    [ci] => 0700977515
+    [id_cliente] => 34863
+    [nombre] => OLMEDO MARIO
+    [apellido] => SANTA MARIA LOPEZ
+    [provincia] => 
+    [ciudad] => Machala
+    [nacimiento] => 0000-00-00
+    [correo_personal] => 
+    [correo_trabajo] => 
+    [estado_civil] => 
+    [prioridad] => 93
+)
+
+2013-08-29 14:40:37 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='ifranco' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-29 14:40:37 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 6
+)
+
+2013-08-29 14:40:37 : paloSantoInterfazdeAgente->obtenerCliente (3) $result Array
+(
+    [id_campania_cliente_recargable] => 46999
+    [id_campania] => 60
+    [tipo_campania] => RECARGABLE
+    [campania] => regestion5
+    [ci] => 0700977515
+    [id_cliente] => 34863
+    [nombre] => OLMEDO MARIO
+    [apellido] => SANTA MARIA LOPEZ
+    [provincia] => 
+    [ciudad] => Machala
+    [nacimiento] => 0000-00-00
+    [correo_personal] => 
+    [correo_trabajo] => 
+    [estado_civil] => 
+    [prioridad] => 93
+)
+
+2013-08-29 14:40:56 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='ifranco' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-29 14:40:56 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 6
+)
+
+2013-08-29 14:40:56 : paloSantoInterfazdeAgente->obtenerCliente (3) $result Array
+(
+    [id_campania_cliente_recargable] => 46999
+    [id_campania] => 60
+    [tipo_campania] => RECARGABLE
+    [campania] => regestion5
+    [ci] => 0700977515
+    [id_cliente] => 34863
+    [nombre] => OLMEDO MARIO
+    [apellido] => SANTA MARIA LOPEZ
+    [provincia] => 
+    [ciudad] => Machala
+    [nacimiento] => 0000-00-00
+    [correo_personal] => 
+    [correo_trabajo] => 
+    [estado_civil] => 
+    [prioridad] => 93
+)
+
+2013-08-29 14:40:56 : paloSantoInterfazdeAgente->obtenerCliente (3) $result Array
+(
+    [id_campania_cliente_recargable] => 46999
+    [id_campania] => 60
+    [tipo_campania] => RECARGABLE
+    [campania] => regestion5
+    [ci] => 0700977515
+    [id_cliente] => 34863
+    [nombre] => OLMEDO MARIO
+    [apellido] => SANTA MARIA LOPEZ
+    [provincia] => 
+    [ciudad] => Machala
+    [nacimiento] => 0000-00-00
+    [correo_personal] => 
+    [correo_trabajo] => 
+    [estado_civil] => 
+    [prioridad] => 93
+)
+
+2013-08-29 14:41:04 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='ifranco' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-29 14:41:04 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 6
+)
+
+2013-08-29 14:41:08 : paloSantoInterfazdeAgente->obtenerCliente (3) $result Array
+(
+    [id_campania_cliente_recargable] => 46999
+    [id_campania] => 60
+    [tipo_campania] => RECARGABLE
+    [campania] => regestion5
+    [ci] => 0700977515
+    [id_cliente] => 34863
+    [nombre] => OLMEDO MARIO
+    [apellido] => SANTA MARIA LOPEZ
+    [provincia] => 
+    [ciudad] => Machala
+    [nacimiento] => 0000-00-00
+    [correo_personal] => 
+    [correo_trabajo] => 
+    [estado_civil] => 
+    [prioridad] => 93
+)
+
+2013-08-29 14:41:12 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='ifranco' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-29 14:41:12 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 6
+)
+
+2013-08-29 14:41:12 : paloSantoInterfazdeAgente->obtenerCliente (1) $result Array
+(
+)
+
+2013-08-29 14:41:12 : paloSantoInterfazdeAgente->obtenerCliente (1) $result Array
+(
+)
+
+2013-08-29 14:41:12 : paloSantoInterfazdeAgente->obtenerCliente (2) $result Array
+(
+)
+
+2013-08-29 14:41:12 : paloSantoInterfazdeAgente->obtenerCliente (3) $result Array
+(
+    [id_campania_cliente_recargable] => 47000
+    [id_campania] => 60
+    [tipo_campania] => RECARGABLE
+    [campania] => regestion5
+    [ci] => 0701297343
+    [id_cliente] => 34870
+    [nombre] => FLOR EUGENIA
+    [apellido] => VEGA VALAREZO
+    [provincia] => 
+    [ciudad] => Machala
+    [nacimiento] => 0000-00-00
+    [correo_personal] => 
+    [correo_trabajo] => 
+    [estado_civil] => 
+    [prioridad] => 93
+)
+
+2013-08-29 14:41:42 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='ifranco' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-29 14:41:42 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 6
+)
+
+2013-08-29 14:41:42 : paloSantoInterfazdeAgente->obtenerCliente (3) $result Array
+(
+    [id_campania_cliente_recargable] => 41131
+    [id_campania] => 46
+    [tipo_campania] => RECARGABLE
+    [campania] => SAC_POSTVENTA_2013
+    [ci] => 1790787923001
+    [id_cliente] => 36649
+    [nombre] => 
+    [apellido] => DISTRIBUIDORA VETERINARIA ALVEAR S.C.C.
+    [provincia] => 
+    [ciudad] => Sto.Domingo
+    [nacimiento] => 0000-00-00
+    [correo_personal] => 
+    [correo_trabajo] => 
+    [estado_civil] => 
+    [prioridad] => 96
+)
+
+2013-08-29 14:41:58 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='ifranco' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-29 14:41:58 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 6
+)
+
+2013-08-29 14:41:59 : paloSantoInterfazdeAgente->obtenerCliente (3) $result Array
+(
+    [id_campania_cliente_recargable] => 41131
+    [id_campania] => 46
+    [tipo_campania] => RECARGABLE
+    [campania] => SAC_POSTVENTA_2013
+    [ci] => 1790787923001
+    [id_cliente] => 36649
+    [nombre] => 
+    [apellido] => DISTRIBUIDORA VETERINARIA ALVEAR S.C.C.
+    [provincia] => 
+    [ciudad] => Sto.Domingo
+    [nacimiento] => 0000-00-00
+    [correo_personal] => 
+    [correo_trabajo] => 
+    [estado_civil] => 
+    [prioridad] => 96
+)
+
+2013-08-29 14:50:18 : paloSantoInterfazdeAgente->validarUsuario 
+$query SELECT count(*) as cont
+		  FROM campania as a, campania_agente as b 
+		  WHERE a.id=b.id_campania 
+		  AND b.id_agente='ifranco' 
+		  AND b.status='A'
+		  AND fecha_inicio<=date(now()) 	
+		  AND fecha_fin>=date(now())
+2013-08-29 14:50:18 : paloSantoInterfazdeAgente->validarUsuario 
+$result Array
+(
+    [cont] => 6
+)
+
+2013-08-29 14:50:18 : paloSantoInterfazdeAgente->obtenerCliente (3) $result Array
+(
+    [id_campania_cliente_recargable] => 41131
+    [id_campania] => 46
+    [tipo_campania] => RECARGABLE
+    [campania] => SAC_POSTVENTA_2013
+    [ci] => 1790787923001
+    [id_cliente] => 36649
+    [nombre] => 
+    [apellido] => DISTRIBUIDORA VETERINARIA ALVEAR S.C.C.
+    [provincia] => 
+    [ciudad] => Sto.Domingo
+    [nacimiento] => 0000-00-00
+    [correo_personal] => 
+    [correo_trabajo] => 
+    [estado_civil] => 
+    [prioridad] => 96
+)
+
